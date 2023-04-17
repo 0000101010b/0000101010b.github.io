@@ -1,40 +1,129 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Rock Paper Scissors</title>
-		<link rel="stylesheet" href="style/style.css"/>
-	</head>
-	<body>
-		<script src="script.js" ></script> 
-		<div id="header">
-			<div id="header2">
-			
-			</div>
-		</div>
-		<div id="main">
-			<div id="sidebar">
-				<h1>Rock Paper Scissors</h1>
-			</div>
-			<div id="content">
-				<h1 id="test">Do you want to play the 3 turns:</h1>
-				<div id="f1"> 
-					<p id="output">
-					</p>
-					<form id="form_1" name="myForm" onsubmit="return submitForm();return false">
-						Choice:
-						<select name="choice" id="choice">
-							<option value="play">Play</option>
-						</select>
-					<input type="submit" /><br/>
+<html lang="en">
 
-					</form>		
-				</div>					
-			</div>
-		</div>
-		<div id="footer">
-			<div class="foot"></div>
-			<div class="foot"><h3>&copy; BT 2023</h3></div>
-			<div class="foot"></div>
-		</div>		
-	</body>
+<head>
+  <meta charset="utf-8">
+  <title>Metamorphosis Gallery - Fine Art Gallery Dublin</title>
+  <meta content="The Meta-Art Gallery (Metamorphosis Gallery)- a Dublin founded visual arts center since 1864 continues its legacy as a international scence for arts in Dublin." name="description">
+  <meta content="Art Gallery Artwork Artist Artists Irish Ireland Dublin" name="keywords">
+
+
+  <link href="assets/img/Logo.png" rel="icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/logo.png" alt="" class="img-fluid rounded-circle">
+        <h1><a href="index.html">Meta-Art Gallery</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="index.html" class="nav-link active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="newsletter/newsletter.html" class="nav-link"><i class="bx bx-book-content"></i> <span>Newsletter</span></a></li>
+          <li><a href="exhibitions/exhibitions.html" class="nav-link"><i class="bx bx-server"></i> <span>Exhibitions</span></a></li>
+          <li><a href="contact/contact.html" class="nav-link"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Top Section ======= -->
+  <section id="top" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="top-container" >
+      <h1>Metamorphosis</h1>
+      <h2>Fine Art Gallery Dublin</h2>
+    </div>
+  </section><!-- End Top -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+			  totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, 
+			  Quis autem vel eum re reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, 
+			  necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" >
+            <img src="assets/img/logo.png" class="img-fluid" alt="">
+          </div>
+		  
+		  
+          <div class="col-lg-8 pt-4 pt-lg-0 content" >
+            <h3>UI/UX Designer &amp; Web Developer.</h3>
+            <p class="fst-italic">
+              Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+			  totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, 
+			  Quis autem vel eum re reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, 
+			  necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae.
+            </p>
+           
+              <div class="col-lg-8">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Founded:</strong> <span>1 May 1865</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a href="index.html">www.meta-artgallery.com</a></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+01 45 790</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Ireland, Dublin</span></li>
+                </ul>
+              </div>
+           
+            <p>
+			   Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa,
+			   quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, Quis autem vel eum re reprehenderit, qui in ea voluptate
+			   velit esse, quam nihil molestiae consequatur, necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. 
+			   </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+ 
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>BT</span></strong>
+      </div>
+      <div class="credits">
+        Designed by Ben Thompson
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  
+</body>
+
 </html>
