@@ -1,5 +1,8 @@
 /**
-* 
+*
+* Updated: Mar 10 2023 with Bootstrap v5.2.3
+* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+* Author: BootstrapMade.com
 */
 (function() {
   "use strict";
